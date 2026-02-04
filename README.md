@@ -21,8 +21,8 @@
     |   |
     │   ├── Employee/
     │   │   ├── Menu/
-    │   │   │   ├── EmplyeeMenu.h
-    │   │   │   └── EmplyeeMenu.c++
+    │   │   │   ├── EmployeeMenu.h
+    │   │   │   └── EmployeeMenu.c++
     │   │   ├── include/
     │   │   │   ├── AddFunctions.h
     │   │   │   ├── RemoveFunctions.h

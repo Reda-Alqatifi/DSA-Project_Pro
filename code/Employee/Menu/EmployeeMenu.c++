@@ -18,11 +18,11 @@ using namespace std;
 
 ////TODO - "Employee Main Menu" :
 
-void Menues::MenuEmployee() //! All functions menu
+void EmpMenues::MenuEmployee() //! All functions menu
 {
     
 }
-void Menues::EmployeeMenuChoice() //! Every operations we gonna do in the program are here
+void EmpMenues::EmployeeMenuChoice() //! Every operations we gonna do in the program are here
 {
     
 }

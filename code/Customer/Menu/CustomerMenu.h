@@ -1,7 +1,7 @@
 #ifndef CustomerMENU_H
 #define CUSTOMERMENU_H
 
-class Menues 
+class CusMenues 
 {
     public:
         //TODO >>>>>>>>>>>>> "Customer Main Menu" :

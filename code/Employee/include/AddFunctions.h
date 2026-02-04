@@ -13,8 +13,6 @@ class Add //!  Done!
         //! Const sections, that the user will have since the beginning
         void baseConstSections();
 
-        //! display entire sections
-        void sectionsDisplay(const std::string &type /*Section or Book*/);
         void writeSection(Section &data); //! To write a new Section name
         
         void connectSectionsAdding(Section &data); //! To connect section add Functions togethor

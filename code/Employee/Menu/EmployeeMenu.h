@@ -1,7 +1,7 @@
 #ifndef EMPLOYEEMENU_H
 #define EMPLOYEEMENU_H
 
-class Menues
+class EmpMenues
 {
     public:
         //TODO >>>>>>>>>>>>> "Employee Main Menu" :

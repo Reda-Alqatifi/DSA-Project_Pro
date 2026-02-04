@@ -1,0 +1,3 @@
+
+The command for running the project:
+g++ -I . code/main.c++ code/Core/src/MainMenu.c++ code/Core/src/Users.c++ code/Core/src/Sections.c++ code/Core/src/Global.c++ code/Customer/Menu/CustomerMenu.c++ code/Customer/src/CDisplayFunctions.c++ code/Customer/src/ReturnFunctions.c++ code/Customer/src/CSearchFunctions.c++ code/Customer/src/BorrowFunctions.c++ code/Customer/src/BuyFunctions.c++ code/Employee/Menu/EmployeeMenu.c++ code/Employee/src/TotalFunctions.c++ code/Employee/src/EDisplayFunctions.c++ code/Employee/src/ESearchFunctions.c++ code/Employee/src/SortFunctions.c++ code/Employee/src/UpdateFunctions.c++ code/Employee/src/RemoveFunctions.c++ code/Employee/src/AddFunctions.c++ -o main.exe $$ ./main.exe

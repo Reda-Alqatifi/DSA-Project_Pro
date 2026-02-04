@@ -16,11 +16,11 @@ using namespace std;
 
 ////TODO - "Customer Main Menu" :
 
-void Menues::MenuCustomer() //! All functions menu
+void CusMenues::MenuCustomer() //! All functions menu
 {
     
 }
-void Menues::CustomerMenuChoice() //! Every operations we gonna do in the program are here
+void CusMenues::CustomerMenuChoice() //! Every operations we gonna do in the program are here
 {
     
 }

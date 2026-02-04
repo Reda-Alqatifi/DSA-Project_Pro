@@ -1,0 +1,58 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "C/C++: g++.exe build active file",
+			"command": "C:\\MinGW\\bin\\g++.exe",
+			"args": [
+				"-fdiagnostics-color=always",
+				"-g",
+
+				//! main
+				"${workspaceFolder}/code/main.c++",
+
+				//! Core
+				"${workspaceFolder}/code/Core/src/Global.c++",
+				"${workspaceFolder}/code/Core/src/Books.c++",
+				"${workspaceFolder}/code/Core/src/Sections.c++",
+				"${workspaceFolder}/code/Core/src/Users.c++",
+				"${workspaceFolder}/code/Core/src/MainMenu.c++",
+
+				//! Customer
+				"${workspaceFolder}/code/Customer/src/BuyFunctions.c++",
+				"${workspaceFolder}/code/Customer/src/BorrowFunctions.c++",
+				"${workspaceFolder}/code/Customer/src/CSearchFunctions.c++",
+				"${workspaceFolder}/code/Customer/src/ReturnFunctions.c++",
+				"${workspaceFolder}/code/Customer/src/CDisplayFunctions.c++",
+
+				"${workspaceFolder}/code/Customer/Menu/CustomerMenu.c++",
+				
+				//! Employee
+				"${workspaceFolder}/code/Employee/src/AddFunctions.c++",
+				"${workspaceFolder}/code/Employee/src/RemoveFunctions.c++",
+				"${workspaceFolder}/code/Employee/src/UpdateFunctions.c++",
+				"${workspaceFolder}/code/Employee/src/SortFunctions.c++",
+				"${workspaceFolder}/code/Employee/src/ESearchFunctions.c++",
+				"${workspaceFolder}/code/Employee/src/EDisplayFunctions.c++",
+				"${workspaceFolder}/code/Employee/src/TotalFunctions.c++",
+
+				"${workspaceFolder}/code/Employee/Menu/EmployeeMenu.c++",
+
+				"-o",
+				"${fileDirname}\\${fileBasenameNoExtension}.exe"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "compiler: C:\\MinGW\\bin\\g++.exe"
+		}
+	]
+}
