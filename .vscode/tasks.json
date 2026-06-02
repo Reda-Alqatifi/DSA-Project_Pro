@@ -20,24 +20,12 @@
 				"${workspaceFolder}/code/Core/src/MainMenu.c++",
 
 				//! Customer
-				"${workspaceFolder}/code/Customer/src/BuyFunctions.c++",
-				"${workspaceFolder}/code/Customer/src/BorrowFunctions.c++",
-				"${workspaceFolder}/code/Customer/src/CSearchFunctions.c++",
-				"${workspaceFolder}/code/Customer/src/ReturnFunctions.c++",
-				"${workspaceFolder}/code/Customer/src/CDisplayFunctions.c++",
-
-				"${workspaceFolder}/code/Customer/Menu/CustomerMenu.c++",
+				"${workspaceFolder}/code/Customer/src/Cust_Operations.c++",
+				"${workspaceFolder}/code/Customer/src/SubMenus.c++",
 				
 				//! Employee
-				"${workspaceFolder}/code/Employee/src/AddFunctions.c++",
-				"${workspaceFolder}/code/Employee/src/RemoveFunctions.c++",
-				"${workspaceFolder}/code/Employee/src/UpdateFunctions.c++",
-				"${workspaceFolder}/code/Employee/src/SortFunctions.c++",
-				"${workspaceFolder}/code/Employee/src/ESearchFunctions.c++",
-				"${workspaceFolder}/code/Employee/src/EDisplayFunctions.c++",
-				"${workspaceFolder}/code/Employee/src/TotalFunctions.c++",
-
-				"${workspaceFolder}/code/Employee/Menu/EmployeeMenu.c++",
+				"${workspaceFolder}/code/Employee/src/Emp_Operations.c++",
+				"${workspaceFolder}/code/Employee/src/SubMenus.c++",
 
 				"-o",
 				"${fileDirname}\\${fileBasenameNoExtension}.exe"
